@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0xYmwYHJo6HPqYwL/LBVB3LwGj9Fx5GRwJH3AGKYIAZQV03Hkkrv+gs7Er+gto6ww04dePin1zPO6uSm/ULjjg==",
+  "dgSpecHash": "rzNyBdO2+FCZQCbD5UMh6K18PlwWoFvRcjZSK1zb5iS9YATuMsgpg37fofNNhW9xC+WkU152YwamCfOYIqgv3w==",
   "success": true,
   "projectFilePath": "/Users/omolajaabubakar/Projects/Reactivities/Reactivities/Reactivities.csproj",
   "expectedPackageFiles": [
+    "/Users/omolajaabubakar/.nuget/packages/mediatr/8.1.0/mediatr.8.1.0.nupkg.sha512",
+    "/Users/omolajaabubakar/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/8.1.0/mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/Users/omolajaabubakar/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/omolajaabubakar/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/omolajaabubakar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

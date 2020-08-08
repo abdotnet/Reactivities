@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{FABA1F7C-00AB-4945-A3F2-C21E8FA610B7}|Reactivities">
+  <MonoDevelop.Ide.ItemProperties.Reactivities PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/Details.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="42" Column="62" />
+      <File FileName="Application/List.cs" Line="28" Column="1" />
+      <File FileName="Controllers/ActivitiesController.cs" Line="49" Column="45" />
+      <File FileName="Controllers/ValuesController.cs" Line="10" Column="4" />
+      <File FileName="Application/Details.cs" Line="19" Column="1" />
+      <File FileName="Application/Create.cs" Line="55" Column="1" />
+      <File FileName="Domain/Activity.cs" Line="6" Column="8" />
+      <File FileName="Application/Edit.cs" Line="13" Column="41" />
+      <File FileName="Application/Delete.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Reactivities" expanded="True">
+            <Node name="Reactivities" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Details.cs" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True" />
+              <Node name="Persistence" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

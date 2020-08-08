@@ -59,3 +59,9 @@
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/obj/Debug/netcoreapp3.1/Reactivities.csprojAssemblyReference.cache
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/package-lock.json
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/package.json
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/public/manifest.json
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/tsconfig.json
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/MediatR.dll
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/MediatR.Extensions.Microsoft.DependencyInjection.dll
