@@ -65,3 +65,4 @@
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/tsconfig.json
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/MediatR.dll
 /Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/omolajaabubakar/Projects/Reactivities/Reactivities/bin/Debug/netcoreapp3.1/client-app/build/manifest.json
