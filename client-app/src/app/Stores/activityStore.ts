@@ -1,4 +1,4 @@
-import { observable, action } from "mobx";
+import { observable, action, computed } from "mobx";
 import { createContext } from "react";
 import agent from "../api/agent";
 import { IActivity } from "../models/activity";
@@ -10,6 +10,13 @@ class ActivityStore {
   @observable editMode = false;
   @observable submitting = false;
 
+  @computed get activityByDate() {
+    return this.activities.sort(
+      (a, b) => 
+        Date.parse(a.date) - Date.parse(b.date)
+      
+    )
+  }
   @action selectActivity = (id: string) => {
     this.selectedActivity = this.activities.find((a) => a.id === id);
     this.editMode = false;
