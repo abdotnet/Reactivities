@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from "react";
+import React, { useState, FormEvent, useContext } from "react";
 import { act } from "react-dom/test-utils";
 import {
   Button,
@@ -12,21 +12,24 @@ import {
 } from "semantic-ui-react";
 import { IActivity } from "../../../app/models/activity";
 import { v4 as uuid, v4 } from "uuid";
+import { observer } from "mobx-react-lite";
+import ActivityStore from "../../../app/Stores/activityStore";
 
 interface IProps {
   setEditMode: (editMode: boolean) => void;
   activity: IActivity;
-  createActivity: (activity: IActivity) => void;
   editActivity: (activity: IActivity) => void;
   submitting: boolean;
 }
 const ActivityForm: React.FC<IProps> = ({
   setEditMode,
   activity: initialFormState,
-  createActivity,
   editActivity,
   submitting,
 }) => {
+  const activityStore = useContext(ActivityStore);
+  const { createActivity } = activityStore;
+
   const initializeForm = () => {
     if (initialFormState) return initialFormState;
     else {
@@ -122,4 +125,4 @@ const ActivityForm: React.FC<IProps> = ({
     </Segment>
   );
 };
-export default ActivityForm;
+export default observer(ActivityForm);
