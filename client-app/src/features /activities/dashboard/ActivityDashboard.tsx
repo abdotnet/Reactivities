@@ -19,7 +19,6 @@ interface IProps {
 }
 
 const ActivityDashboard: React.FC<IProps> = ({
-  activities,
   selectActivity,
   setEditMode,
   setSelectedActivity,
